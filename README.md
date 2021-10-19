@@ -5,7 +5,7 @@ It checks out a given commit of the upstream repository, generates missing
 `package-lock.json` files and then it uses `npmlock2nix` to turn the packages
 into Nix derivations.
 
-Check the ouputs with `nix flake show github:cidem/metaplex`
+Check the ouputs with `nix flake show github:cidem/metaplex-js-nix-flake`
 
 Packages that don't work on certain platforms are marked as broken. Right now
 `web` can't be used at all, because I haven't figured out how to work around
