@@ -1,0 +1,30 @@
+#!/usr/bin/env fish
+
+set -x tempdir (mktemp -p /tmp -d "metaplex_src_XXXX")
+
+function cleanup --on-process-exit %self
+  rm -r $tempdir
+end
+
+cp -L -r $metaplex_src $tempdir
+
+set -l basedir $tempdir/(basename $metaplex_src)
+
+#chown -R (whoami):(id -gn) $basedir
+chmod 775 -R $basedir
+
+# Workaround to handle @oyster/common which is normally handled by Lerna and
+# doesn't exist on NPM. We replace it with a normal file path, which NPM
+# supports out of the box.
+echo "[make-lockfile] convert @oyster/common to local file dependency in $basedir"
+env -C $basedir cat js/packages/web/package.json  | jq '.dependencies["@oyster/common"] = "../common/"' | sponge $basedir/js/packages/web/package.json
+
+for dir in $basedir/js/packages/{cli, fair-launch, web}
+  echo "[make-lockfile] generating lock file in $dir"
+  env -C $dir npm install --package-lock-only
+  set -l target_dir (string replace $basedir/ "" $dir)
+  mkdir -p $target_dir
+  cp $dir/package-lock.json $target_dir/package-lock.json
+end
+
+#vim: filetype=fish

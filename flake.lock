@@ -1,0 +1,78 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1631561581,
+        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "metaplex": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633622970,
+        "narHash": "sha256-+p7aiaod/pDljd7f6wpzSPm8qukapzufic4iwboMvYU=",
+        "owner": "metaplex-foundation",
+        "repo": "metaplex",
+        "rev": "f6e6a7b7767f18824950326fba20b59872f2a2e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "metaplex-foundation",
+        "repo": "metaplex",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1633329294,
+        "narHash": "sha256-0LpQLS4KMgxslMgmDHmxG/5twFlXDBW9z4Or1iOrCvU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ee084c02040e864eeeb4cf4f8538d92f7c675671",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "npmlock2nixSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633944916,
+        "narHash": "sha256-JrygNz4WRIP6iagNyi/13+4G2ioYBkk1Ob4tIiMZpsk=",
+        "owner": "cidem",
+        "repo": "npmlock2nix",
+        "rev": "5bb43cf25e3fa55fc25b12ba040b332cb3bcd5a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cidem",
+        "ref": "fallback-char",
+        "repo": "npmlock2nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "metaplex": "metaplex",
+        "nixpkgs": "nixpkgs",
+        "npmlock2nixSrc": "npmlock2nixSrc"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
