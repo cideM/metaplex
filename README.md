@@ -17,7 +17,7 @@ missing `aarch64` as a target architecture for GYP bindings.
 The typical use case is:
 
 ```shell
-$ nix build github:cidem/metaplex
+$ nix build github:cidem/metaplex-js-nix-flake
 
 $ node ./result/candy-machine-cli.js
 Usage: candy-machine-cli [options] [command]
