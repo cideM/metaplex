@@ -18,11 +18,11 @@
     "metaplex": {
       "flake": false,
       "locked": {
-        "lastModified": 1633622970,
-        "narHash": "sha256-+p7aiaod/pDljd7f6wpzSPm8qukapzufic4iwboMvYU=",
+        "lastModified": 1634573492,
+        "narHash": "sha256-jaqSMOaeUcMae/wvDPlfVrjpOecaDifHHfv4c0JdMKo=",
         "owner": "metaplex-foundation",
         "repo": "metaplex",
-        "rev": "f6e6a7b7767f18824950326fba20b59872f2a2e2",
+        "rev": "0927e3e3ba1fd13ff27ccb0c4b64d9e724e5c736",
         "type": "github"
       },
       "original": {
@@ -33,11 +33,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1633329294,
-        "narHash": "sha256-0LpQLS4KMgxslMgmDHmxG/5twFlXDBW9z4Or1iOrCvU=",
+        "lastModified": 1633422745,
+        "narHash": "sha256-gA6Ok64nPbkjHk3Oanq4641EeYkjcKhisDF9wBjLxEk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ee084c02040e864eeeb4cf4f8538d92f7c675671",
+        "rev": "8e1eab9eae4278c9bb1dcae426848a581943db5a",
         "type": "github"
       },
       "original": {
