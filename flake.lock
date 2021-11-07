@@ -18,11 +18,11 @@
     "metaplex": {
       "flake": false,
       "locked": {
-        "lastModified": 1636131907,
-        "narHash": "sha256-IrxfadMY/NH6i+FoSrHuCWHiO4A09S+7TModBUAiIeA=",
+        "lastModified": 1636218242,
+        "narHash": "sha256-Zp3U4FZul4PpVso1HhJ/XlCRfwZpEHXGFoAUCm3HJr4=",
         "owner": "metaplex-foundation",
         "repo": "metaplex",
-        "rev": "fe7c96671693947ae4bcdcfe4d691fe1d631138a",
+        "rev": "9e9bbb558932c536fffbe91c654e07c2d4f098c8",
         "type": "github"
       },
       "original": {
