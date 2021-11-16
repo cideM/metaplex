@@ -2,11 +2,11 @@
   "nodes": {
     "flake-utils": {
       "locked": {
-        "lastModified": 1634851050,
-        "narHash": "sha256-N83GlSGPJJdcqhUxSCS/WwW5pksYf3VP1M13cDRTSVA=",
+        "lastModified": 1637014545,
+        "narHash": "sha256-26IZAc5yzlD9FlDT54io1oqG/bBoyka+FJk5guaX4x4=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "c91f3de5adaf1de973b797ef7485e441a65b8935",
+        "rev": "bba5dcc8e0b20ab664967ad83d24d64cb64ec4f4",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     "metaplex": {
       "flake": false,
       "locked": {
-        "lastModified": 1636909696,
-        "narHash": "sha256-NvtGrsq+R3Zqj2X0C/AlBLovATjnyJh16kx2VvcrZk0=",
+        "lastModified": 1637039926,
+        "narHash": "sha256-C2/QS5C2A5+2S9e9SNDwEqXfKkXvQvJjb6AvD9sQ7b0=",
         "owner": "metaplex-foundation",
         "repo": "metaplex",
-        "rev": "133e7c58ffb94c48e7203a54df6a7ba03e537b15",
+        "rev": "0b082276e03e1413c8c9395f9f397bb791efed6d",
         "type": "github"
       },
       "original": {
