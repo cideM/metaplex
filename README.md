@@ -1,3 +1,12 @@
+# Archived
+
+Maintaining JS and TS projects in Nix is a nightmare. Due to the large number of dependencies,
+something is always broken. And then someone adds a weird postinstall script, which has no hope
+of ever succeeding in Nix.
+
+Additionally, I myself don't use any of these packages so there's little value for me in
+maintaining any of this.
+
 # Metaplex Nix
 
 This repository bundles the Metaplex JS CLI tools in the form of a Nix flake.
